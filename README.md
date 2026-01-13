@@ -6,6 +6,7 @@ The project implements an elementary level LLM-based system which computes safe,
 
 # System Design
 
+<img width="4637" height="4428" alt="block diagram" src="https://github.com/user-attachments/assets/daf33eb9-216a-4f8a-8439-95a8191f057e" />
 
 ## Instructions
 The attached code is a simple python script skeleton. Your goal is to take any simple bedtime story request and use prompting to tell a story appropriate for ages 5 to 10.
