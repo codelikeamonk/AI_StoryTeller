@@ -7,7 +7,7 @@ Before submitting the assignment, describe here in a few sentences what you woul
 I would add a small quantitative benchmarking script that runs a fixed set of 10-20 representative story requests through the system using
 different prompt variants, such as baseline versus revised storyteller prompts. For every run, log the judge's scores on age-appropriateness, safety
 engagement, structure, etc into a CSV and compute an aggregate “quality score” per prompt version. That would make it super easy to compare prompt
-changes objectively, identify regressions, and iterate based on measured improvements rather than by subjective judgment.
+changes objectively, identify regressions, and iterate based on measured improvements rather than by subjective judgement.
 """
 from pipeline import generate_story_with_judge, revise_story_with_user_feedback, format_judge_debug
 
