@@ -57,10 +57,10 @@ def main():
         print("=" * 60 + "\n")
         print(story)
 
-        print("\n" + "=" * 60)
-        print("JUDGE SUMMARY (debug)")
-        print("=" * 60)
-        print(format_judge_debug(fb_judge_history))
+        # print("\n" + "=" * 60)
+        # print("JUDGE SUMMARY (debug)")
+        # print("=" * 60)
+        # print(format_judge_debug(fb_judge_history))
 
     print("\nGoodnight, Sweet Dreams!")
 
